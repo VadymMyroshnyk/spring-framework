@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:6.1.3'
+    implementation 'commons-codec:commons-codec:1.16.0'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

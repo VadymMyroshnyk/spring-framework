@@ -1,0 +1,13 @@
+rootProject.name = 'spring-framework'
+
+include 'di'
+include 'spring-boot-application'
+include 'example-00-context'
+include 'example-01-scope'
+include 'example-02-bean-lifecycle'
+include 'example-03-dependency-injection'
+include 'example-04-bean-id'
+include 'example-05-profile'
+include 'example-06-spel'
+include 'example-07-properties'
+include 'example-08-aop'
